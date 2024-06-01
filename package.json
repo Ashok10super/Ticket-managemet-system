@@ -1,0 +1,20 @@
+{
+  "name": "ticketapp",
+  "version": "1.0.0",
+  "description": "Ticket management app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon Mainroute.js",
+    "1": "Agent serviceAgentservice.js"
+  },
+  "author": "Ashok",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
